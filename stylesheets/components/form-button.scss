@@ -1,3 +1,5 @@
+@import "../config/colors";
+
 .form-button {
   margin-bottom: 10px;
   padding: 10px 20px;
@@ -5,9 +7,9 @@
 
   border-radius: 4px;
   border: 1px solid $mussel-2nd;
-  box-shadow: 0 0 1px $lotus-3nd;
+  box-shadow: 0 0 1px $lotus-3rd;
 
-  color: $mussel-3nd;
+  color: $mussel-3rd;
   background-color: $lotus;
 
   text-decoration: none;
@@ -20,8 +22,8 @@
 
   &:active {
     box-shadow: 0 0 5px $mussel-2nd inset;
-    background-color: $lotus-3nd;
-    border-color: $mussel-3nd;
+    background-color: $lotus-3rd;
+    border-color: $mussel-3rd;
   }
 
   // Variants
