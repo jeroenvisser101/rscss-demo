@@ -1,5 +1,9 @@
+@import "compass";
+
 .search-form {
   width: 300px;
+
+  @include clearfix;
 
   > .input {
     @extend .form-input;
