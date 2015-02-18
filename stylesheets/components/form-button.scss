@@ -1,4 +1,5 @@
 .form-button {
+  margin-bottom: 10px;
   padding: 10px 20px;
   display: inline-block;
 
@@ -18,7 +19,7 @@
   }
 
   &:active {
-    box-shadow: 0 0 3px $mussel-2nd inset;
+    box-shadow: 0 0 5px $mussel-2nd inset;
     background-color: $lotus-3nd;
     border-color: $mussel-3nd;
   }
@@ -32,5 +33,18 @@
     background-color: $waterfall;
     color: $lotus;
     border-color: $waterfall-3rd;
+
+    // States
+    &:hover {
+      background-color: $waterfall-2nd;
+      color: $lotus;
+      border-color: $waterfall-3rd;
+    }
+
+    &:active {
+      background-color: $waterfall;
+      color: $lotus;
+      border-color: $waterfall-3rd;
+    }
   }
 }

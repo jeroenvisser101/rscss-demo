@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,WAAY;EACV,OAAO,EAAE,SAAS;EAClB,OAAO,EAAE,YAAY;EAErB,aAAa,EAAE,GAAG",
-"sources": ["form-input.scss"],
-"names": [],
-"file": "form-input.css"
-}
