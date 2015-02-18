@@ -1,0 +1,18 @@
+.search-form {
+  width: 300px;
+
+  > .input {
+    @extend .form-input;
+    @extend .form-input.-right-attached;
+
+    float: left;
+  }
+
+  > .button {
+    @extend .form-button;
+    @extend .form-button.-left-attached;
+    @extend .form-button.-primary;
+
+    float: left;
+  }
+}
