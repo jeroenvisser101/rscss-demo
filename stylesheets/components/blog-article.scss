@@ -1,0 +1,19 @@
+.blog-article {
+  > .container > .heading {
+    border-bottom: 1px solid $mussel-2nd;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+
+  > .article {
+    line-height: 1.5;
+  }
+
+  // States
+  &:hover { ... }
+
+  // Variants
+  &.-blue {
+    color: $waterfall;
+  }
+}
